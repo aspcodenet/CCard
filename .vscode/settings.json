@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\stefa\\source\\CCard",
+            "binaryPath": "c:\\Users\\stefa\\source\\CCard\\main.exe",
+            "binaryArgs": []
+        }
+    ]
+}
