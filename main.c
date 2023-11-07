@@ -12,6 +12,17 @@ typedef struct{
 
 
 void adminMenu(CARDLIST *cardList) {
+
+    char namn[20];
+    int i = 12;
+    printf("MENY\n");
+    //printf("Ange namn:");
+    //scanf("%s",namn);
+    GetInput("Ange namn:", namn, 20);
+    int sel;
+    GetInputInt("Ange sel", &sel);
+
+
     while(1){
         printf("Admin menu\n");
         printf("1. Remote open door\n");
